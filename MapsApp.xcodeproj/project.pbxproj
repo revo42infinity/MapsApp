@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB3C9DC525F4FDC900BED08A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3C9DC425F4FDC900BED08A /* ListViewController.swift */; };
 		EB47914225E1600C0028BF8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB47914125E1600C0028BF8F /* AppDelegate.swift */; };
 		EB47914425E1600C0028BF8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB47914325E1600C0028BF8F /* SceneDelegate.swift */; };
-		EB47914625E1600C0028BF8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB47914525E1600C0028BF8F /* ViewController.swift */; };
+		EB47914625E1600C0028BF8F /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB47914525E1600C0028BF8F /* MapsViewController.swift */; };
 		EB47914925E1600C0028BF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB47914725E1600C0028BF8F /* Main.storyboard */; };
 		EB47914C25E1600C0028BF8F /* MapsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB47914A25E1600C0028BF8F /* MapsApp.xcdatamodeld */; };
 		EB47914E25E1600F0028BF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB47914D25E1600F0028BF8F /* Assets.xcassets */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB3C9DC425F4FDC900BED08A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		EB47913E25E1600C0028BF8F /* MapsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB47914125E1600C0028BF8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB47914325E1600C0028BF8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EB47914525E1600C0028BF8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB47914525E1600C0028BF8F /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		EB47914825E1600C0028BF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB47914B25E1600C0028BF8F /* MapsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MapsApp.xcdatamodel; sourceTree = "<group>"; };
 		EB47914D25E1600F0028BF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,12 +62,13 @@
 			children = (
 				EB47914125E1600C0028BF8F /* AppDelegate.swift */,
 				EB47914325E1600C0028BF8F /* SceneDelegate.swift */,
-				EB47914525E1600C0028BF8F /* ViewController.swift */,
+				EB47914525E1600C0028BF8F /* MapsViewController.swift */,
 				EB47914725E1600C0028BF8F /* Main.storyboard */,
 				EB47914D25E1600F0028BF8F /* Assets.xcassets */,
 				EB47914F25E1600F0028BF8F /* LaunchScreen.storyboard */,
 				EB47915225E1600F0028BF8F /* Info.plist */,
 				EB47914A25E1600C0028BF8F /* MapsApp.xcdatamodeld */,
+				EB3C9DC425F4FDC900BED08A /* ListViewController.swift */,
 			);
 			path = MapsApp;
 			sourceTree = "<group>";
@@ -140,9 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB47914625E1600C0028BF8F /* ViewController.swift in Sources */,
+				EB47914625E1600C0028BF8F /* MapsViewController.swift in Sources */,
 				EB47914225E1600C0028BF8F /* AppDelegate.swift in Sources */,
 				EB47914C25E1600C0028BF8F /* MapsApp.xcdatamodeld in Sources */,
+				EB3C9DC525F4FDC900BED08A /* ListViewController.swift in Sources */,
 				EB47914425E1600C0028BF8F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
